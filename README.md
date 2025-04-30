@@ -36,20 +36,16 @@ The following is a list of these scripts and a brief description of the figures 
 
 make fig 1.R - plots selection gradients for changes in the intercept, slope, and curvature of the adult survival function for a slow life history.
 
-make fig 2.R – plots possible changes in a vital rate function under the persistent action of natural selection, potentially leading to the erosion of demographic lability
+make fig 2.R – plots possible changes in a vital rate function under the persistent action of natural selection, potentially leading to the erosion of demographic lability.
 
-make fig 3.R – shows how adaptation to the local environment, through a unimodal vital rate function, could prevent demographic lability for fast and slow life histories
+make fig 3.R – shows how adaptation to the local environment, through a unimodal vital rate function, could prevent demographic lability for fast and slow life histories.
 
-make fig S1-1.R – plots combinations of shape of a vital rate function and skewness in the distribution of the environmental driver that cause the vital rate’s arithmetic mean to be greater when the driver varies than when the driver is fixed at its median
+make fig S3-1.R – makes a plot showing local selection gradients acting on small portions of a quadratic vital rate function and a symmetrical driver distribution (which produces lability at the driver mean).
 
-make fig S1-2.R – plots the combinations of shape of a vital rate function and skewness in the distribution of the environmental driver at which the stochastic growth rate is higher when adult survival in the slow life history varies compared to when it is fixed at its value in either the mean or the median environment
+make fig S4-1.R – makes plots showing that the conclusion reached by LeCoeur et al. 2022 that demographic lability is more likely for species with a fast life history was predetermined by the assumptions they made in designing their simulations.
 
-make fig S4-1 S4-2.R – makes two plots showing local selection gradients acting on small portions of a vital rate function, one for a quadratic vital rate function and a symmetrical driver distribution (which produces lability at the driver mean), and one for a linear vital rate function and a skewed driver distribution (which produces lability relative to the driver median, but not the mean)
+make fig S5-1.R – plots the effect on the arithmetic mean vital rate and the stochastic growth rate of increasing mismatch between the optimal environment for a unimodal vital rate function and the mean of the (symmetrical) environmental distribution, for a range of values of the environmental standard deviation.
 
-make fig S5-1.R – makes plots showing that the conclusion reached by LeCoeur et al. 2022 that demographic lability is more likely for species with a fast life history was predetermined by the assumptions they made in designing their simulations
+make fig S6-1 S6-2.R – makes two plots of the effect of the shape of the adult survival function for a slow life history under a symmetric, bounded driver distribution on the stochastic growth rate, one plot for a quadratic vital rate function and one plot for adult survival following a power function. 
 
-make fig S6-1.R – plots the effect on the arithmetic mean vital rate and the stochastic growth rate of increasing mismatch between the optimal environment for a unimodal vital rate function and the mean of the (symmetrical) environmental distribution, for a range of values of the environmental standard deviation
-
-make fig S7-1 S7-2.R – makes two plots of the effect of the shape of the adult survival function for a slow life history under a symmetric, bounded driver distribution on the stochastic growth rate, one plot for a quadratic vital rate function and one plot for adult survival following a power function  
-
-make fig S7-3.R – effects of a skewed prey abundance distribution on the arithmetic mean of predator vital rates when predation follows a type III functional response (which is convex over  some driver range but concave over a different driver range)
+make fig S6-3.R – effects of a skewed prey abundance distribution on the arithmetic mean of predator vital rates when predation follows a type III functional response (which is convex over some driver range but concave over a different driver range).
