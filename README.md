@@ -1,11 +1,13 @@
-# lability-critique
 Citation to the publication associated with the dataset and code:
 
-TO BE ADDED LATER
+Morris, W.F., and D.F. Doak. 2025. What is demographic lability and when might we expect to see it? American Naturalis, in press.
+
 
 Author contact information: 
 
-TO BE ADDED LATER
+William F. Morris
+Department of Biology, Duke University, Durham, NC 27708, USA; wfmorris@duke.edu
+
 
 Brief summary of the published paper:
 
@@ -21,7 +23,7 @@ Description of the items in the repository:
 
 Apart from a re-analysis of published data from Barraquand et al. 2014 (J. Animal Ecology 83: 375-387), the paper is theoretical, and this repository provides the code used to generate the figures in the paper and to perform a reanalysis of the data from Barraquand et al. 2014.   
 
-Code was written by XXXXXXXXX, who also performed digitization and model fitting for the skua data from Barraquand et al. 2014.  Scripts were run in RStudio using R version 4.2.2 (2022-10-31 ucrt) running under Windows 10 x64 (build 19045).  As scripts were written for a PC platform, windows() commands are used to open graphical windows (they could be replaced with quartz() on a MAC machine).  Scripts are licensed under the MIT License described here: https://choosealicense.com/licenses/mit/
+Code was written by W.F. Morris, who also performed digitization and model fitting for the skua data from Barraquand et al. 2014.  Scripts were run in RStudio using R version 4.2.2 (2022-10-31 ucrt) running under Windows 10 x64 (build 19045).  As scripts were written for a PC platform, windows() commands are used to open graphical windows (they could be replaced with quartz() on a MAC machine).  Scripts are licensed under the MIT License described here: https://choosealicense.com/licenses/mit/
 
 The script < fit skua productivity functions.R > uses data on skua productivity vs lemming data obtained by digitizing Fig. 2 in Barraquand et al. (2014). The digitized data are found in the file < skua data from Barraquand.csv >.
 
