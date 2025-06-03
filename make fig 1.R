@@ -1,5 +1,7 @@
-# Make panels of Fig 1 for manuscript entitled 
-# "What is demographic lability and when might we expect to see it?"
+# Make panels of Fig 1 for the following paper:
+
+# Morris, W.F., and D.F. Doak. 2025. "What is demographic lability and when 
+# might we expect to see it? American Naturalist.
 
 # Vital rate/driver relationship (VRDR) for adult survival, s.a, vs driver z
 # in text: s.a(z) = s.a(0) + b*z + c*z^2
@@ -44,7 +46,7 @@ matplot(z,cbind(sa.0,sa.c0,sa.c1,sa.c2,sa.sa,sa.b),xlab='Environment, z',
         lty=c('solid','solid','dotted','dotted','solid','solid'),cex.axis=2)
 
 
-# Fig 1B  - identical to Figs S4.1B, S6.1 B, and Fig S7.1 B
+# Fig 1B  
 
 # compute Beta parameters from desired mean (m) and variance (v)
 m=0.5

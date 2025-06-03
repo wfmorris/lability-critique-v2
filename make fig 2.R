@@ -1,8 +1,11 @@
-# Make panels of Fig 2 for manuscript entitled 
-# "What is demographic lability and when might we expect to see it?"
+# Make panels of Fig 2 for the following paper: 
+
+# Morris, W.F., and D.F. Doak. 2025. "What is demographic lability and when 
+# might we expect to see it? American Naturalist.
 
 # **********************************************************************
-# Make fig to show how a convex VRDR might evolve
+# Make fig to show how a concave VRDR might evolve from a convex one due to 
+# stronger selection on the VRDR near the most common environments
 
 rm(list=ls(all=TRUE))
 graphics.off()
@@ -26,6 +29,7 @@ matplot(z,cbind(R1,R2),type='l',xlab='',ylab='',   #xlab='Environment, z',ylab='
 axis(side=1, labels=FALSE)
 lines(c(0,0),c(0,8),lwd=3,lty='dashed')
 
+# make panel B
 M=0
 S=1
 windows()
@@ -59,6 +63,7 @@ x2=c(x2,xplus)
 y2=d2$y
 y2=c(y2,rep(0,length(xplus)))
 
+# make panel C
 windows()
 plot(x1,y1,type='l',xlab='',ylab='',yaxt='n',col='red',lwd=4,
      xlim=c(0,xmax),ylim=c(0,0.9),cex.axis=2)

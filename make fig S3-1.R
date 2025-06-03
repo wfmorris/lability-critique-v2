@@ -1,5 +1,7 @@
-# Make panels of Fig. S3.1 for manuscript entitled 
-# "What is demographic lability and when might we expect to see it?"
+# Make panels of Fig S3.1 for the following paper:
+
+# Morris, W.F., and D.F. Doak. 2025. "What is demographic lability and when 
+# might we expect to see it? American Naturalist.
 
 # Code computes the localized selection gradient to small perturbations to a vital  
 # rate function near specific values of the environmental driver. Specifically, we 

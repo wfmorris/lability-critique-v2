@@ -1,5 +1,8 @@
-# make panels of Fig 3 for manuscript entitled 
-# "What is demographic lability and when might we expect to see it?"
+# Make panels of Fig 3 for the following paper:
+
+# Morris, W.F., and D.F. Doak. 2025. "What is demographic lability and when 
+# might we expect to see it? American Naturalist.
+
 
 rm(list=ls(all=TRUE))
 graphics.off()
