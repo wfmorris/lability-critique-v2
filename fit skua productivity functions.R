@@ -1,5 +1,8 @@
-# This code accompanies a manuscript entitled 
-# "What is demographic lability and when might we expect to see it?"
+# This code accompanies the following paper:
+
+# Morris, W.F., and D.F. Doak. 2025. "What is demographic lability and when might we
+# expect to see it? American Naturalist, in press.
+
 # It uses data obtained by digitizing Fig. 2 in Barraquand et al., 2014, 
 # Journal of Animal Ecology. The data (found in the file 
 # "skua data from Barraquand.csv") describes the relationship between fecundity
