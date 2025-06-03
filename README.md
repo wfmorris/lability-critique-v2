@@ -1,6 +1,6 @@
 Citation to the publication associated with the dataset and code:
 
-Morris, W.F., and D.F. Doak. 2025. What is demographic lability and when might we expect to see it? American Naturalis, in press.
+Morris, W.F., and D.F. Doak. 2025. What is demographic lability and when might we expect to see it? American Naturalis.
 
 
 Author contact information: 
